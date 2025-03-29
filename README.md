@@ -11,11 +11,11 @@
 
 	Once the trajectory (not the scenario) has been changed it is necessary to recreate it by selecting the correct choice in the corresponding questdlg.\
 	Once this has been done, if there are no further changes in the trajectory, for later simulation it can be reused by loading the saved trajectory data (this avoids the slow trajectory generation process).
-	![](https://raw.githubusercontent.com/ddebenedittis/media/main/uni-sgn-auv_sensor_fusion/sc1_10s.webp)
+	![](https://raw.githubusercontent.com/ddebenedittis/media/main/uni-sgn-uav_sensor_fusion/sc1_10s.webp)
 - `main_3`:
 	Generate a coil trajectory. This trajectory is useful when there are unknown UWB beacons and no other absolute position sensors available.\
 	This type of trajectory allows the system to estimate the UWB anchor position and at the same time use them for navigation (SLAM). The beacon position is first be initialized with an appropriate algorithm.
-	![](https://raw.githubusercontent.com/ddebenedittis/media/main/uni-sgn-auv_sensor_fusion/main_3_on_2_10s.webp)
+	![](https://raw.githubusercontent.com/ddebenedittis/media/main/uni-sgn-uav_sensor_fusion/main_3_on_2_10s.webp)
 
 ## Custom MATLAB System Objects developed
 Note: "stepImpl"(...) means that it is the predefined method, executed for the system object istance named xxx with: xxx(...)
